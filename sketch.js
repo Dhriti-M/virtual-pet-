@@ -13,7 +13,7 @@ function preload()
 
 function setup() {
   createCanvas(500, 500);
-  background(46,139,87);
+  
   
   database=firebase.database();
   
@@ -28,7 +28,7 @@ function setup() {
 
 function draw() {  
 
-  
+  background(46,139,87);
 
   if(keyWentDown(UP_ARROW)){
    writeStock(foodS);
