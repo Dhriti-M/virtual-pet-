@@ -35,7 +35,7 @@ function draw() {
    dog.addImage(happydog_img);
   }
 
-  if(keyWentup(UP_ARROW)){
+  if(keyWentUp(UP_ARROW)){
     writeStock(foodS);
     dog.addImage(dog_img);
    }
