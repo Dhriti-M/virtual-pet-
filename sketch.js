@@ -15,6 +15,8 @@ function setup() {
   createCanvas(500, 500);
   background(46,139,87);
   
+  database=firebase.database();
+  
   dog=createSprite(200,200,10,10);
   dog.addImage(dog_img);
 
@@ -62,7 +64,7 @@ function writeStock(x){
       x=x-1;
     }*/
     
-    food:x
+    Food:x
              })
 }
 
