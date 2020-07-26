@@ -19,6 +19,7 @@ function setup() {
   
   dog=createSprite(200,200,10,10);
   dog.addImage(dog_img);
+  dog.scale=0.2;
 
   Foodstock=database.ref("food");
   Foodstock.on("value",readStock);
